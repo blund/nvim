@@ -10,7 +10,7 @@ syntax enable
 " Sett font
 "set gfn=Source\ Code\ Pro:h12
 
-colorscheme simple-dark
+colorscheme slate
 
 " Sett tallvisning på siden, relative tall med absolutt på peker
 set rnu nu
