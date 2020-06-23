@@ -1,5 +1,5 @@
 
-" Installer Vim-Plug
+" Installer plug automagisk på alle platformer
 let g:VIM_PLUG_PATH = expand(g:config_root . '/autoload/plug.vim')
 if executable('curl')
     if empty(glob(g:VIM_PLUG_PATH))
@@ -23,10 +23,10 @@ endif
 let g:PLUGIN_HOME=expand(stdpath('data') . '/plugged')
 
 call plug#begin(PLUGIN_HOME)
-" Plug 'junegunn/goyo.vim'
+"Plug 'junegunn/goyo.vim'
 Plug 'lambdalisue/fern.vim'
 " Plug 'jreybert/vimagit'
 " Plug 'wincent/command-t'
-Plug 'hattya/vcvars.vim'
-" Plug 'bling/vim-airline'
+" Plug 'hattya/vcvars.vim'
+"Plug 'bling/vim-airline'
 call plug#end()
